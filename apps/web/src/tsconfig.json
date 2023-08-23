@@ -1,0 +1,6 @@
+{
+  "extends": "@bug/tsconfig/solidjs.json",
+  "compilerOptions": {
+    "noUncheckedIndexedAccess": true
+  }
+}

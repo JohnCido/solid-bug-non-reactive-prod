@@ -1,0 +1,14 @@
+{
+  "extends": "@bug/tsconfig/solidjs.json",
+  "include": ["."],
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "types": [
+      "node",
+    ],
+  },
+}

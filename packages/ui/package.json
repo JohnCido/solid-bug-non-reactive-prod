@@ -1,0 +1,13 @@
+{
+  "name": "@bug/ui",
+  "private": true,
+  "version": "0.0.0",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src"
+  },
+  "devDependencies": {
+    "@bug/tsconfig": "*",
+    "solid-js": "^1.7.7"
+  }
+}

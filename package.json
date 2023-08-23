@@ -1,0 +1,24 @@
+{
+  "name": "bug",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "local": "turbo run local",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@turbo/gen": "^1.9.7",
+    "@types/node": "^20.4.2",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^7.32.0",
+    "turbo": "latest",
+    "typescript": "^5.1.6"
+  },
+  "packageManager": "yarn@1.22.19",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
