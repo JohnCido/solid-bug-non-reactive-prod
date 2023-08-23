@@ -1,0 +1,20 @@
+{
+  "name": "@bug/ext",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@bug/ui": "*",
+    "solid-js": "^1.7.10"
+  },
+  "devDependencies": {
+    "@bug/tsconfig": "*",
+    "@crxjs/vite-plugin": "^2.0.0-beta.18",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.4",
+    "vite-plugin-solid": "^2.7.0"
+  }
+}
